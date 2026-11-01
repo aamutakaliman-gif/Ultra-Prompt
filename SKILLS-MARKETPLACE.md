@@ -12,7 +12,7 @@
 | awesome-python | awesome-python | 4 |
 | rea | rea | 5 |
 | mattpocock-skills | skills | the repo's own promoted set |
-| awesome-claude-skills-core | awesome-claude-skills | 31 (Composio `*-automation` skills left out) |
+| awesome-skills-core | awesome-claude-skills | 31 (Composio `*-automation` skills left out) |
 | mirofish | MiroFish | 1 |
 | awesome-lists | awesome | 1 |
 | saasify | saasify | 1 |

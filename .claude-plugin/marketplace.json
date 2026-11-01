@@ -116,7 +116,7 @@
       }
     },
     {
-      "name": "awesome-claude-skills-core",
+      "name": "awesome-skills-core",
       "description": "Core (non-Composio) skills from awesome-claude-skills: documents, canvas design, skill creator, webapp testing and more.",
       "source": {
         "source": "github",
