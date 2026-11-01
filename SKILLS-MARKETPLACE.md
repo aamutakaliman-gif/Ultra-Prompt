@@ -11,7 +11,7 @@
 | awesome-llm-apps | awesome-llm-apps | 9 |
 | awesome-python | awesome-python | 4 |
 | rea | rea | 5 |
-| mattpocock-skills | skills | the repo's own promoted set |
+| mattpocock-skills | skills | 27 (the repo's own promoted set) |
 | awesome-skills-core | awesome-claude-skills | 31 (Composio `*-automation` skills left out) |
 | mirofish | MiroFish | 1 |
 | awesome-lists | awesome | 1 |
@@ -22,9 +22,11 @@ Claude-Code-Game-Studios is not included: its skills need that repo's agents and
 ## Install (Claude Code)
 
 ```
-/plugin marketplace add aamutakaliman-gif/Ultra-Prompt
+/plugin marketplace add aamutakaliman-gif/Ultra-Prompt#claude/repo-skill-claude-kq474x
 /plugin install ultra-prompt@aamu-skills
 ```
+
+Until this branch is merged, keep the `#claude/repo-skill-claude-kq474x` suffix; after merging into the default branch, drop it. The mirofish, awesome-lists and saasify plugins read that same branch in their own repos, so merge those too and then remove their `ref` in `marketplace.json`.
 
 Repeat `/plugin install <plugin>@aamu-skills` for each plugin you want, or browse them with `/plugin`.
 Update later with `/plugin marketplace update aamu-skills`.
