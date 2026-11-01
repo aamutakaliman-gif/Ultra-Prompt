@@ -1,0 +1,200 @@
+{
+  "name": "aamu-skills",
+  "description": "Skills from aamutakaliman-gif's repositories, packaged as Claude Code plugins.",
+  "owner": {
+    "name": "aamutakaliman-gif"
+  },
+  "plugins": [
+    {
+      "name": "ultra-prompt",
+      "description": "Ultra Prompt: prompt architect for Claude Code.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "huashu-design",
+      "description": "Huashu Design: HTML-based design, prototypes, slides and motion.",
+      "source": {
+        "source": "github",
+        "repo": "aamutakaliman-gif/huashu-design"
+      },
+      "strict": false,
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "logo-design",
+      "description": "Logo design: brief, concepts, SVG construction, brand guidelines.",
+      "source": {
+        "source": "github",
+        "repo": "aamutakaliman-gif/logo-design-skill"
+      }
+    },
+    {
+      "name": "orca",
+      "description": "Orca skills: orchestration, CLI, Linear/Jira tickets, emulators, chat visuals.",
+      "source": {
+        "source": "github",
+        "repo": "aamutakaliman-gif/orca"
+      },
+      "strict": false,
+      "skills": [
+        "./skills/computer-use",
+        "./skills/jira-tickets",
+        "./skills/linear-tickets",
+        "./skills/orca-cli",
+        "./skills/orca-emulator",
+        "./skills/orca-emulator-android",
+        "./skills/orca-jira",
+        "./skills/orca-linear",
+        "./skills/orca-per-workspace-env",
+        "./skills/orchestration",
+        "./resources/native-chat-visuals/skills/orca-chat-visuals"
+      ]
+    },
+    {
+      "name": "awesome-llm-apps",
+      "description": "Agent skills from awesome-llm-apps (project graveyard, dependency doctor, first reader, MCP/ChatGPT app builders...).",
+      "source": {
+        "source": "github",
+        "repo": "aamutakaliman-gif/awesome-llm-apps"
+      },
+      "strict": false,
+      "skills": [
+        "./agent_skills/advisor-orchestrator-worker",
+        "./agent_skills/commit-archaeologist",
+        "./agent_skills/dependency-doctor",
+        "./agent_skills/first-reader",
+        "./agent_skills/project-graveyard",
+        "./agent_skills/scope-creep-detector",
+        "./agent_skills/thinking-out-loud",
+        "./generative_ui_agents/ai-mcp-app-builder/apps/mcp-use-server/.agent/skills/mcp-apps-builder",
+        "./generative_ui_agents/ai-mcp-app-builder/apps/mcp-use-server/.agent/skills/chatgpt-app-builder"
+      ]
+    },
+    {
+      "name": "awesome-python",
+      "description": "awesome-python maintenance skills: audit the list, review PRs, scan GitHub stars, preview verdicts.",
+      "source": {
+        "source": "github",
+        "repo": "aamutakaliman-gif/awesome-python"
+      },
+      "strict": false,
+      "skills": [
+        "./.claude/skills/audit-the-list",
+        "./.claude/skills/preview-verdicts",
+        "./.claude/skills/review-prs",
+        "./.claude/skills/scan-github-stars"
+      ]
+    },
+    {
+      "name": "rea",
+      "description": "REA skills: reverse engineering, analysis optimization, tool design, CI audit, changelog.",
+      "source": {
+        "source": "github",
+        "repo": "aamutakaliman-gif/rea"
+      },
+      "strict": false,
+      "skills": [
+        "./.agents/skills/rea-analysis-optimization",
+        "./.agents/skills/rea-changelog-update",
+        "./.agents/skills/rea-ci-tests-audit",
+        "./.agents/skills/rea-tool-design",
+        "./.agents/skills/reverse-engineer-anything"
+      ]
+    },
+    {
+      "name": "mattpocock-skills",
+      "description": "Engineering and productivity skills from the skills repo (grilling, TDD, specs, code review...).",
+      "source": {
+        "source": "github",
+        "repo": "aamutakaliman-gif/skills"
+      }
+    },
+    {
+      "name": "awesome-claude-skills-core",
+      "description": "Core (non-Composio) skills from awesome-claude-skills: documents, canvas design, skill creator, webapp testing and more.",
+      "source": {
+        "source": "github",
+        "repo": "aamutakaliman-gif/awesome-claude-skills"
+      },
+      "strict": false,
+      "skills": [
+        "./artifacts-builder",
+        "./brand-guidelines",
+        "./canvas-design",
+        "./changelog-generator",
+        "./competitive-ads-extractor",
+        "./connect",
+        "./connect-apps",
+        "./content-research-writer",
+        "./developer-growth-analysis",
+        "./document-skills/docx",
+        "./document-skills/pdf",
+        "./document-skills/pptx",
+        "./document-skills/xlsx",
+        "./domain-name-brainstormer",
+        "./file-organizer",
+        "./image-enhancer",
+        "./internal-comms",
+        "./invoice-organizer",
+        "./langsmith-fetch",
+        "./lead-research-assistant",
+        "./mcp-builder",
+        "./meeting-insights-analyzer",
+        "./raffle-winner-picker",
+        "./skill-creator",
+        "./skill-share",
+        "./slack-gif-creator",
+        "./tailored-resume-generator",
+        "./theme-factory",
+        "./twitter-algorithm-optimizer",
+        "./video-downloader",
+        "./webapp-testing"
+      ]
+    },
+    {
+      "name": "mirofish",
+      "description": "Operate a local MiroFish swarm-intelligence simulation through its API.",
+      "source": {
+        "source": "github",
+        "repo": "aamutakaliman-gif/MiroFish",
+        "ref": "claude/repo-skill-claude-kq474x"
+      },
+      "strict": false,
+      "skills": [
+        "./skills/mirofish"
+      ]
+    },
+    {
+      "name": "awesome-lists",
+      "description": "Find the right curated awesome list for any topic.",
+      "source": {
+        "source": "github",
+        "repo": "aamutakaliman-gif/awesome",
+        "ref": "claude/repo-skill-claude-kq474x"
+      },
+      "strict": false,
+      "skills": [
+        "./skills/awesome-lists"
+      ]
+    },
+    {
+      "name": "saasify",
+      "description": "Reference guide to the Saasify codebase for monetizing APIs (platform shut down in 2022).",
+      "source": {
+        "source": "github",
+        "repo": "aamutakaliman-gif/saasify",
+        "ref": "claude/repo-skill-claude-kq474x"
+      },
+      "strict": false,
+      "skills": [
+        "./skills/saasify"
+      ]
+    }
+  ]
+}

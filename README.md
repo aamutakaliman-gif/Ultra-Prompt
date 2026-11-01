@@ -788,3 +788,11 @@ See [LICENSE](LICENSE) for details.
 *If Ultra Prompt saved you time, a ⭐ star means the world. It helps others discover this tool.*
 
 </div>
+
+## Skill marketplace
+
+This repo also hosts a Claude Code plugin marketplace for skills from related repositories. See [SKILLS-MARKETPLACE.md](SKILLS-MARKETPLACE.md).
+
+```
+/plugin install ultra-prompt --marketplace aamutakaliman-gif/Ultra-Prompt
+```
